@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Source Sans Pro", "sans-serif";
+}
+
+img {
+    border-radius: 4px;
+}
+
+/* header */
+.navigation {
+    margin-bottom: 5px;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    color: #7e8690;
+    background-color: transparent;
+}
+
+.header-top a,
+.header-top i,
+.header-top span {
+    margin: 10px;
+}
+
+.social i {
+    padding: 10px;
+}
+
+
+/* navbar */
+.navbar {
+    padding: 30px 10%;
+    display: flex;
+    color: white;
+    position: sticky;
+    justify-content: space-between;
+    background-color: black;
+    top: 0;
+    z-index: 5;
+}
+
+.text {
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+a{
+  color: grey;
+}
+.navbar a {
+    color: white;
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    color: #4869e8;
+    /* margin:0 20px ;
+    font-size: 20px; */
+}
+
+.mar-nav {
+    margin: 0 15px;
+}
+
+.nav1-button {
+    height: 40px;
+    display: inline-block;
+    padding: 6px 15px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    border: none;
+    cursor: pointer;
+}
+
+.nav1-button:hover {
+    background-color: #4869e8;
+}
+
+
+/* main */
+
+.main-div {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../IMG/banner-1.jpg);
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.bout {
+    color: white;
+    font-size: 48px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+}
+
+
+/* cards */
+
+
+.Box-1{
+    margin: 100px;
+   
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1{
+  text-align: center;
+}
+
+.paragraph{
+    margin: 30px;
+}
+
+.cre{
+   color: #4869e8;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   margin-bottom: 10px;
+}
+
+.imp a{
+  font-size: 21px;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 800;
+  color: black;
+}
+
+.imp:hover a{
+  color: #4869e8;
+}
+
+.by{
+  margin-top: 10px;
+  word-spacing: 10px;
+  letter-spacing: 2px;
+  font-size: 16px;
+  color: #7e8690;
+}
+
+.ip{
+  font-size: 16px;
+  color: #7e8690;
+  margin: 20px 0px 24px;
+  word-spacing: 4px;
+}
+
+.btn{
+    height: 40px;
+    width: 150px;
+    padding:  10px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: bold;
+    font-weight: bold;
+    color: white;
+    background-color: #4869e8;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .btn:hover{
+    color:  white;
+    background-color: black;
+    border: 1px solid white;
+  }
+  
+
+
+/* pagenation */
+
+.page{
+  margin: 50px;
+}
+
+.age{
+  display: flex;
+  justify-content: center;
+}
+
+ .pagination li{
+	list-style-type: none;
+	display: inline-block;
+	margin: 40px 0px;
+
+}
+ .pagination li a{
+  /* margin: 0px 10px; */
+	text-decoration: none;
+	font-size: 20px;
+  font-weight: bold;
+  border-radius: 50%;
+  color: black;
+	border: 1px solid grey;
+	padding: 15px;
+  
+}
+.active{
+	background-color: #4869e8;
+	color: white;
+}
+
+li:hover a{
+	color:#4869e8;
+}
+
+
+  /* footer */
+
+.footer{
+    background-color: #24282f;
+    height: 60vh;
+    color: white;
+    margin: 0 !important;
+    padding: 100px 0;
+  }
+  
+  .foot{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+   
+  }
+  
+  .foot li{
+    color: #7e8690;
+    list-style: none;
+    display: block;
+    margin: 10px;
+  }
+  .fot ul li a{
+    color: grey;
+    margin-left: 20px;
+  }
+  
+  hr{
+    border: 1px solid rgb(103, 102, 102) !important;
+  }
+  
+  h2{
+    margin-right: 20px;
+  }
+  .foot a{
+    color: grey;
+  }
+  
+  .copy{
+    font-size: 18px;
+    color: grey;
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .copy span{
+    color: white;
+  }
+  
+  .fot p{
+    margin: 15px 0;
+  }
+
+  @media screen and (min-width:320px) and (max-width:480px) {
+    .navigation{
+     display: none;
+    }
+    .navbar{
+		height: 100vh;
+     width: 100%;
+		position: relative;
+	}
+
+	.navbar div:nth-child(2){
+		position: absolute;
+		top: 50%;
+	 	left: 50%;
+		transform: translate(-50%,-50%);
+	}
+	.navbar a{
+		display: block;
+    margin: 25px 0;
+	}
+  
+  .nav1-button{
+    display: none;
+  }
+
+  .main-div{
+    height: 100vh;
+    margin-bottom: 100px;
+  }
+
+img{
+  height: 200px;
+}
+
+/* .paragraph{
+  padding: 0;
+} */
+
+.ip{
+  font-size: 15px;
+}
+  .pagination{
+   font-size: 10px;
+  }
+
+
+  .footer{
+    margin-top: 100%;
+    height: 200vh;
+     width: 100%;
+		position: relative;
+  }
+
+  .foot{
+    display: block;
+    margin: 10px;
+    padding: 10px;
+  }
+ }

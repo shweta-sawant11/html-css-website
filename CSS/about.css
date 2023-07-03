@@ -1,0 +1,522 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Source+Sans+Pro:wght@900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Source Sans Pro", "sans-serif";
+}
+
+img {
+    border-radius: 4px;
+}
+
+/* header */
+.navigation {
+    margin-bottom: 5px;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    color: #7e8690;
+    background-color: transparent;
+}
+
+.header-top a,
+.header-top i,
+.header-top span {
+    margin: 10px;
+}
+
+.social i {
+    padding: 10px;
+}
+
+
+/* navbar */
+.navbar {
+    padding: 30px 10%;
+    display: flex;
+    color: white;
+    position: sticky;
+    justify-content: space-between;
+    background-color: black;
+    top: 0;
+    z-index: 5;
+}
+
+.text {
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.navbar a {
+    color: white;
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    color: #4869e8;
+    /* margin:0 20px ;
+    font-size: 20px; */
+}
+
+.mar-nav {
+    margin: 0 15px;
+}
+
+.nav1-button {
+    height: 40px;
+    display: inline-block;
+    padding: 6px 15px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    border: none;
+}
+
+.nav1-button:hover {
+    background-color: #4869e8;
+}
+
+
+/* main */
+
+.main-div {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../IMG/banner-1.jpg);
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.bout {
+    color: white;
+    font-size: 48px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+}
+
+
+
+ .create{
+    margin: 100px;
+} 
+
+.cre {
+    /* margin: 100px; */
+    text-align: center;
+}
+
+.digi {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+.sul {
+    margin-top: 20px;
+    font-size: 19px;
+    color: grey;
+}
+
+.box {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    height: 400px;
+    width: auto;
+    border-radius: 5px;
+    background-color: white;
+    margin: 25px;
+}
+
+.paragraph {
+    margin-top: 20px;
+}
+
+.mark {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+.brand {
+    font-size: 17px;
+    color: grey;
+    /* width: 0px; */
+}
+
+
+/* counter */
+
+.counter {
+    background-image: linear-gradient(rgba(72, 105, 2320, 0.8), rgba(72, 105, 2320, 0.8)), url(../IMG/banner-1.jpg);
+    height: 50vh;
+}
+
+.count {
+    text-align: center;
+    display: flex;
+    color: white;
+    /* justify-content: space-evenly; */
+    padding: 100px;
+}
+
+.count i{
+   font-size: 32px !important;
+   padding: 20px;
+}
+
+ .num1{
+    font-weight: bold;
+    font-size: 50px;
+    /* font-family: 'Kanit', sans-serif;
+    font-weight: 800; */
+}
+
+.num1 span {
+    font-weight: bold;
+    font-size: 20px;
+} 
+
+ .pro {
+    /* font-size: 20px;
+    text-align: center; */
+    color: rgba(255,255,255,.5);
+}  
+
+/* team */
+
+.amazing {
+    margin: 100px;
+}
+.count{
+    display: flex;
+    justify-content: space-between;
+}
+.num2{
+    display: flex;
+
+}
+
+.team {
+    text-align: center;
+}
+
+.ama {
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.an {
+    color: grey;
+    font-size: 17px;
+    font-weight: 20px;
+    line-height: 25px;
+    word-spacing: 5px;
+}
+
+.pics {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+
+
+.demo {
+    position: relative;
+    margin: 50px 20px;
+}
+
+
+.chit {
+    height: 100px;
+    width: 280px;
+    padding: 10px;
+    border-bottom: solid 1px #7e8690;
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(5px);
+    border-radius: 4px;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    top: 280px;
+    left: 6%;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+    color: gray;
+}
+
+a{
+    color: gray;
+}
+
+li:hover a{
+    color: #4869e8;
+}
+
+.a {
+    font-size: 20px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+/* designer */
+
+.designer {
+    background-image: url(../IMG/about-modern-img-1.jpg);
+    height: 70vh;
+    margin: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.fa-quote-left{
+    font-size: 50px !important;
+    color: blue;
+}
+
+.des{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-20%, -50%);
+    text-align: center;
+}
+
+.ne{
+    color: grey;
+    word-spacing: 5px;
+    font-size: 19px;
+    line-height: 32px;
+    margin-bottom: 10px;
+}
+
+.mi{
+    font-size: 20px;
+    font-weight: bold;
+}
+.di{
+    font-size:22px;
+    color: grey;
+}
+
+.images {
+    margin: 50px;
+}
+
+.ima{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px;
+}
+
+.images .ima div {
+    width: 25%;
+}
+
+/* footer */
+
+.footer {
+    background-color: #24282f;
+    height: 60vh;
+    color: white;
+    margin: 0 !important;
+    padding: 100px 0;
+}
+
+.foot {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+
+}
+
+.foot li {
+    color: #7e8690;
+    list-style: none;
+    display: block;
+}
+
+.fot ul li a {
+    color: grey;
+    margin-left: 20px;
+}
+
+hr {
+    border: 1px solid rgb(103, 102, 102) !important;
+}
+
+h2 {
+    margin-right: 20px;
+}
+
+.foot a {
+    color: grey;
+}
+
+.copy {
+    font-size: 18px;
+    color: grey;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.copy span {
+    color: white;
+}
+
+.fot p {
+    margin: 15px 0;
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .navigation{
+     display: none;
+    }
+    .navbar{
+		height: 100vh;
+     width: 100%;
+		position: relative;
+	}
+
+	.navbar div:nth-child(2){
+		position: absolute;
+		top: 50%;
+	 	left: 50%;
+		transform: translate(-50%,-50%);
+	}
+	.navbar a{
+		display: block;
+    margin: 25px 0;
+	}
+  
+  .nav1-button{
+    display: none;
+  }
+
+  .main-div{
+    text-align: center;
+    height: 100vh;
+    margin-bottom: 100px;
+  }
+
+  .create{
+    padding: 0;
+    margin: 0;
+  }
+  
+
+  .digi{
+    font-size: 45px;
+  }
+  
+  .sul{
+    line-height: 30px;
+  }
+  
+
+  .box{
+    display: block;
+  }
+
+  .box1 {
+    margin: 10px;
+  }
+  .box1 img{
+    height: 200px;
+  }
+
+
+  .counter{
+    height: 100vh;
+  }
+  
+  .count{
+    display: block;
+    margin: 30px;
+    padding: 0;
+  }
+
+ 
+  .pro{
+    margin-bottom: 30px;
+  }
+
+  .amazing{
+    margin: 10px;
+    padding: 0;
+  }
+ 
+  .pics{
+    margin: 0px;
+  }
+  .images{
+    margin: 0;
+    padding: 0;
+  }
+
+  .demo{
+    width: 300px;
+  }
+  .demo img{
+    height: 100%;
+    width: 100%;
+  }
+  .chit{
+    width: 200px;
+    top: 170px;
+  }
+
+  .ima{
+    margin-left: 50px;
+    display: block;
+  }
+
+  .designer{
+    margin: 100px 0 0 0;
+    height: 400px;
+  }
+  
+  .footer{
+    margin-top: 100%;
+    height: 200vh;
+     width: 100%;
+		position: relative;
+  }
+
+  .foot{
+    display: block;
+    margin: 10px;
+    padding: 10px;
+  }
+}

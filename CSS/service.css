@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Source+Sans+Pro:wght@900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Source Sans Pro", "sans-serif";
+}
+
+img {
+  border-radius: 4px;
+}
+
+/* header */
+.navigation {
+  margin-bottom: 5px;
+  padding: 0 10%;
+  display: flex;
+  justify-content: space-between;
+  color: #7e8690;
+  background-color: transparent;
+}
+
+.header-top a,
+.header-top i,
+.header-top span {
+  margin: 10px;
+  color: #7e8690;
+}
+
+.social i {
+  padding: 10px;
+  /* color: grey; */
+}
+
+
+/* navbar */
+.navbar {
+  padding: 30px 10%;
+  display: flex;
+  color: white;
+  position: sticky;
+  justify-content: space-between;
+  background-color: black;
+  top: 0;
+  z-index: 5;
+}
+
+.text {
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+.social a {
+  color: grey;
+}
+
+.navbar a {
+  color: white;
+  margin: 0 20px;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  color: #4869e8;
+  /* margin:0 20px ;
+    font-size: 20px; */
+}
+
+.mar-nav {
+  margin: 0 15px;
+}
+
+.nav1-button {
+  height: 40px;
+  display: inline-block;
+  padding: 6px 15px;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+  background-color: blue;
+  border: none;
+  cursor: pointer;
+}
+
+.nav1-button:hover {
+  background-color: #4869e8;
+}
+
+
+/* main */
+
+.main-div {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../IMG/banner-1.jpg);
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.bout {
+  color: white;
+  font-weight: bold;
+  font-size: 48px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+
+
+/* cards */
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90%;
+  margin: 100px;
+}
+
+.car {
+  margin: 40px;
+}
+
+.web {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.prg {
+  color: #7e8690;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.card1 {
+  display: flex;
+}
+
+.card1 .card10 {
+  margin-left: 20px;
+}
+
+.card1 i {
+  font-size: 45px !important;
+  color: #7e8690;
+  margin-right: 20px;
+}
+
+
+/* pricing plan */
+
+.bplan {
+  background-image: linear-gradient(rgba(72, 105, 232, 0.8), rgba(72, 105, 232, 0.8)), url(../IMG/banner-1.jpg);
+  /* position: absolute; */
+  background-size: cover;
+  content: "";
+  width: 100%;
+  height: 70vh;
+}
+
+.plan {
+  text-align: center;
+  color: white;
+  margin: 50px;
+}
+
+.bus {
+  font-size: 53px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.de {
+  font-weight: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  word-spacing: 5px;
+  color: rgba(255,255,255,.5);
+}
+
+
+.card-sec {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  text-align: center;
+  /* justify-content: space-evenly */
+
+}
+
+.car1 {
+  height: 600px;
+  width: 350px;
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 3px 3px 2px rgb(221, 221, 221);
+  padding: 50px;
+  transition: all 0.3s ease-out 0s;
+  font-size: 18px;
+  margin: 20px;
+}
+
+.car1 p {
+  margin-bottom: 15px;
+}
+
+.free {
+  border-radius: 10px;
+  width: 50px;
+  margin: auto;
+  background-color: #f1f3f7;
+}
+
+.up {
+  margin-top: 40px;
+}
+
+
+.free2 {
+  border-radius: 10px;
+  width: 90px;
+  margin: auto;
+  background-color: #f1f3f7;
+}
+
+.nbr {
+  font-size: 85px;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 600;
+}
+
+.in {
+  color: gray;
+  font-weight: bold;
+}
+
+.car1 .btn5 {
+  height: 40px;
+  width: 150px;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: bold;
+  font-weight: bold;
+  color: black;
+  background-color: white;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid blue;
+  margin-top: 30px;
+}
+
+.btn5:hover {
+  color: white;
+  background-color: #4869e8;
+  border: 1px solid white;
+}
+
+
+.car1 .btn6 {
+  height: 40px;
+  width: 150px;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: bold;
+  font-weight: bold;
+  color: white;
+  background-color: #4869e8;
+  border: none;
+  margin-top: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid blue;
+
+}
+
+.btn6:hover {
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+}
+
+.car1:hover {
+  transform: translateY(8px);
+}
+
+.car1:hover .nbr {
+  color: #4869e8;
+}
+
+.clear{
+  clear: both;
+}
+/* paragraph */
+
+.demo1 {
+  margin-top: 200px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  padding: 100px;
+}
+
+.demo {
+  margin: 30px;
+
+}
+
+.one {
+  font-size: 50px;
+  color:  rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 600;
+}
+
+.two {
+  font-size: 22px;
+  margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+
+.three {
+  font-size: 17px;
+  color: #7e8690;
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 25px;
+}
+
+
+/* footer */
+.footer {
+  background-color: #24282f;
+  height: 60vh;
+  color: white;
+  margin: 0 !important;
+  padding: 100px 0;
+}
+
+.foot {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: center; */
+
+}
+
+.foot li {
+  color: #7e8690;
+  list-style: none;
+  display: block;
+  margin: 10px;
+}
+
+.fot ul li a {
+  color: grey;
+  margin-left: 20px;
+}
+
+/* .fot li{
+  margin: 10px;
+} */
+
+hr {
+  border: 1px solid rgb(103, 102, 102) !important;
+}
+
+h2 {
+  margin-right: 20px;
+}
+
+.foot a {
+  color: grey;
+}
+
+.copy {
+  font-size: 18px;
+  color: grey;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.copy span {
+  color: white;
+}
+
+.fot p {
+  margin: 15px 0;
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+  .navigation{
+   display: none;
+  }
+  .navbar{
+  height: 100vh;
+   width: 100%;
+  position: relative;
+}
+
+.navbar div:nth-child(2){
+  position: absolute;
+  top: 50%;
+   left: 50%;
+  transform: translate(-50%,-50%);
+}
+.navbar a{
+  display: block;
+  margin: 25px 0;
+}
+
+.nav1-button{
+  display: none;
+}
+
+.main-div{
+  text-align: center;
+  height: 100vh;
+  margin-bottom: 100px;
+}
+
+.cards{
+  margin: 0;
+  padding: 0;
+}
+.car{
+  padding: 0;
+  /* margin: auto; */
+  margin: 30px 0;
+}
+.car i{
+  font-size: 30px !important;
+  margin-left: 20px ;
+}
+
+.bplan{
+ height: 100%;
+}
+
+.card-sec{
+  display: block;
+}
+
+.car1{
+  width: 270px;
+}
+
+.demo1{
+  display: block;
+  padding: 0;
+  margin-top: 50px !important;
+  height: 100vh;
+}
+
+
+ .footer{
+  margin-top: 500px !important;
+  /* padding-bottom: 900px; */
+  height: 200vh;
+   width: 100%;
+  /* position: relative; */
+}
+
+.foot{
+  display: block;
+  margin: 10px;
+  padding: 10px;
+} 
+}
